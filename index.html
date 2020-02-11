@@ -7,17 +7,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./main.css">
     <script src="https://kit.fontawesome.com/f07217496d.js" crossorigin="anonymous"></script>
-
+    <link href="https://fonts.googleapis.com/css?family=Lora|Roboto|Six+Caps&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="nav-wrapper">
-        <ul>
-          <li><a href="index.html">HOMEs</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-          <li><a href="instagram.html">INSTAGRAM</a></li>
-        </ul>
-    </div>
+    <header>
+      <div class="logo">
+        <a href="index.html"><h1 class="logo-text">arose</h1></a>
+      </div>
+      <i class="fas fa-bars menu"></i>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Service</a></li>
+        <li>
+          <a href="#">ALEX</a>
+          <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#" class="logout">Logout</a></li>
+          </ul>
+        </li>
+      </ul>
+    </header>
     <div class="page-wrapper">
 
     </div>
@@ -32,18 +42,36 @@
             <span><i class="fa fa-envelope"></i> &nbsp; alexander.schlak@durstexpress.eu</span>
           </div>
           <div class="socials">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+            <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+            <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
           </div>
         </div>
 
         <div class="footer-section links">
-          Test
+          <h2>Quick Links</h2>
+          <br>
+          <ul>
+            <a href="#"><li>Veranstaltungen</li></a>
+            <a href="#"><li>Team</li></a>
+            <a href="#"><li>Dies</li></a>
+            <a href="#"><li>Das</li></a>
+            <a href="#"><li>Gallerie</li></a>
+          </ul>
         </div>
-        <div class="footer-section contact">
-          Test
+
+        <div class="footer-section contact-form">
+          <h2>Contact us</h2>
+          <br>
+          <form action="index.html" method="post">
+              <input type="email" name="email" class="text-input contact-input" placeholder="deine mail...">
+              <textarea name="message" class="text-input contact-input" placeholder="deine nachricht..."></textarea>
+              <button type="button" class="btn btn-big contact-btn">
+                <i class="fas fa-paper-plane"></i>
+                send
+              </button>
+          </form>
         </div>
       </div>
       <div class="footer-bottom">
